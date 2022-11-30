@@ -1,0 +1,85 @@
+html {
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+#navbar {
+  font-size: 21px;
+}
+
+#main-page-link {
+  float: left;
+}
+
+.left-navbar {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: rgb(59, 50, 160);
+}
+
+#home {
+  background-color: aquamarine;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-presentation {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#name-title {
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 85px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  
+}
+
+.my-projects-button {
+  padding: 10px;
+  margin: 30px;
+  font-size: 21px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 143) ;
+  box-shadow: #333;
+}
+
+#about {
+  height: 870px;
+  background-color: aqua;
+}
